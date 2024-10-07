@@ -1,0 +1,21 @@
+.d2-age-area,
+.d2-attr-area,
+.d2-ai-area {
+    background-color: #ff4141 !important;
+}
+
+/* 年齢エリア */
+.d2-age-area:has(.d2-age-r18:checked) {
+    background-color: var(--charcoal-surface1) !important;
+}
+
+/* 属性エリア */
+/* .d2-attr-area:has(.d2-attr-loli:checked) { */
+.d2-attr-area:has(input:checked) {
+    background-color: var(--charcoal-surface1) !important;
+}
+
+/* AIエリア */
+.d2-ai-area:has(.d2-ai-yes:checked) {
+    background-color: var(--charcoal-surface1) !important;
+}
